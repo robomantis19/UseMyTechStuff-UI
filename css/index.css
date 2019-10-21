@@ -1,0 +1,813 @@
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #8F91A3;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Russo One', sans-serif;
+  color: #E9B40A;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+.MainContainer {
+  width: 100vw;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .MainContainer {
+    width: 100vw;
+    margin: 0 auto;
+  }
+}
+nav {
+  z-index: 4;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  justify-content: space-around;
+  background-color: white;
+  border-bottom: 2px solid grey;
+  position: absolute;
+  top: -2%;
+  position: fixed;
+  font-size: 3rem;
+}
+@media (max-width: 500px) {
+  nav {
+    padding-right: 5%;
+    margin-top: 2%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100vw;
+  }
+}
+nav h2 {
+  align-self: flex-start;
+  text-align: center;
+  margin: 1rem 1rem 0;
+  padding: 1rem 0.5rem;
+  background: #eab602;
+  color: black;
+  height: 50px;
+  font-size: 2rem;
+  padding-top: 1%;
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  nav h2 {
+    margin-top: -20px;
+    padding-top: 3%;
+  }
+}
+nav a {
+  text-decoration: none;
+  color: #E9B40A;
+}
+@media (max-width: 500px) {
+  nav a {
+    font-size: 2.2rem;
+  }
+}
+.footerDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+footer a {
+  font-size: 2rem;
+  color: #E9B40A;
+  text-decoration: none;
+}
+.MainContainer *:focus {
+  outline: 0;
+}
+.MainContainer button:active {
+  transform: translateY(4px);
+}
+.MainContainer header {
+  width: 100vw;
+  flex-direction: column;
+  align-items: bottom;
+  display: flex;
+  justify-content: center;
+}
+.MainContainer header .pictureDiv {
+  z-index: 0;
+  background-image: url("../images/DroneOverOcean.jpg");
+  width: 100vw;
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1700px) {
+  .MainContainer header .pictureDiv {
+    padding-top: 40px;
+    margin-top: 200px;
+    width: 100vw;
+    height: 140vh;
+  }
+}
+@media (max-width: 500px) {
+  .MainContainer header .pictureDiv {
+    margin-top: -40%;
+    width: 100vw;
+    height: 600px;
+  }
+}
+.MainContainer header .pictureDiv .btnHref {
+  border: none;
+}
+.MainContainer header .pictureDiv .CallToAction {
+  z-index: 0;
+  position: fixed;
+  width: 200px;
+  height: 100px;
+  border-radius: 2px;
+  font-size: 3rem;
+  text-shadow: 2px 1px 2px #000000;
+  box-shadow: 1px 1px 5px #000;
+  background-color: Transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .MainContainer header .pictureDiv .CallToAction {
+    margin-top: -60px;
+  }
+}
+.MainContainer header .pictureDiv .CallToAction:nth-child(1) {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  color: Transparent;
+  line-height: 50px;
+}
+@media (max-width: 500px) {
+  .MainContainer header .pictureDiv .CallToAction:nth-child(1) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .MainContainer header .pictureDiv .CallToAction:nth-child(1) {
+    display: none;
+  }
+}
+.MainContainer header .pictureDiv .CallToAction:nth-child(1) h2 {
+  color: Transparent;
+  border-bottom: 2px solid black;
+}
+.MainContainer header .pictureDiv .CallToAction:nth-child(1) .CallToAction:nth-child(1):hover {
+  background-color: Transparent;
+}
+.MainContainer header .RentLend {
+  margin-top: 700px;
+  position: relative;
+  background-color: #F6F6F8;
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: space-evenly;
+}
+.MainContainer header .RentLend h2 {
+  font-weight: bold;
+  color: #CCCDD6;
+  text-shadow: 1px 1px 3px #000;
+}
+@media (min-width: 1700px) {
+  .MainContainer header .RentLend {
+    margin-top: 1000px;
+  }
+}
+@media (max-width: 500px) {
+  .MainContainer header .RentLend {
+    margin-top: 600px;
+    width: 100vw;
+    height: 500px;
+  }
+  .MainContainer header .RentLend h2 {
+    text-align: center;
+    margin-left: 5%;
+    width: 80%;
+  }
+}
+.MainContainer header .btnAlign {
+  padding-top: 20px;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .MainContainer header .btnAlign {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .MainContainer header .btnAlign div {
+    text-align: center;
+    width: 80%;
+  }
+}
+.MainContainer header .main1Btn {
+  background-color: #E9140A;
+  border-radius: 2.5rem;
+  width: 200px;
+  height: 100px;
+  border: none;
+  color: #E9B40A;
+  color: #E3E4E8;
+  font-size: 2.5rem;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px #000;
+}
+.MainContainer header .main2Btn {
+  background-color: #08C827;
+  border-radius: 2.5rem;
+  width: 200px;
+  height: 100px;
+  border: none;
+  color: #E3E4E8;
+  font-size: 2.5rem;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px #000;
+}
+.MainContainer header .whiteSpace {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+}
+@media (max-width: 500px) {
+  .MainContainer header .whiteSpace {
+    margin-top: 250px;
+  }
+}
+.MainContainer header .whiteSpace2 {
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.MainContainer header .whiteSpace2 .centerText2 {
+  position: relative;
+  padding-top: 60px;
+  width: 400px;
+}
+.MainContainer header .whiteSpace2 .centerText2 h2 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2rem;
+  color: #E96E0A;
+  text-shadow: 6px 2px 6px #000000;
+}
+.MainContainer header .whiteSpace2 .centerText2 .big {
+  padding-bottom: 2px;
+  width: 50%;
+  font-size: 5.8rem;
+  border-bottom: 3px solid #E96E0A;
+}
+.MainContainer header .whiteSpace2 .centerText2 .MeetTeam {
+  color: #E9140A;
+}
+.MainContainer header .centerText {
+  position: relative;
+  padding-top: 60px;
+  width: 400px;
+}
+.MainContainer header .centerText h2 {
+  position: relative;
+  font-size: 4.8rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2rem;
+  color: #E96E0A;
+  text-shadow: 6px 2px 6px #000000;
+}
+.MainContainer header .centerText .big {
+  padding-bottom: 2px;
+  width: 50%;
+  font-size: 5.8rem;
+  border-bottom: 3px solid #E96E0A;
+}
+.MainContainer .aboutUs {
+  height: 6000px;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .MainContainer .aboutUs {
+    height: 6000px;
+  }
+}
+.MainContainer .aboutUs div {
+  height: 150px;
+  width: 800px;
+  border: 2px solid black;
+}
+@media (max-width: 500px) {
+  .MainContainer .aboutUs div {
+    width: 400px;
+    height: 200px;
+  }
+}
+.MainContainer .aboutUs h2 {
+  text-align: center;
+}
+.MainContainer .aboutUs p {
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .MainContainer .aboutUs p {
+    padding-bottom: 5%;
+  }
+}
+.MainContainer .aboutUs img {
+  width: 25%;
+  border: 5px solid #E96E0A;
+  margin-bottom: 100px;
+}
+@media (max-width: 500px) {
+  .MainContainer .aboutUs img {
+    width: 74%;
+  }
+}
+.MainContainer .wrapper {
+  position: relative;
+  background-color: white;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .MainContainer .wrapper {
+    height: 450px;
+    border-bottom: 4px solid black;
+  }
+}
+.MainContainer .wrapper .main2Img {
+  margin-left: 5%;
+  z-index: 3;
+  width: 70%;
+  background-image: url("../images/mainGadgets.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+@media (min-width: 1700px) {
+  .MainContainer .wrapper .main2Img {
+    margin-left: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .MainContainer .wrapper .main2Img {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+.MainContainer .Container {
+  position: relative;
+  padding-bottom: 5%;
+  width: 100%;
+  background-color: white;
+}
+.MainContainer #intro {
+  margin: 0 10%;
+  padding-top: 5%;
+}
+@media (max-width: 500px) {
+  .MainContainer #intro h2 {
+    padding-top: 15%;
+    margin-top: 50px;
+  }
+}
+.MainContainer .pCol {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.MainContainer .pCol .Col1,
+.MainContainer .pCol .Col2 {
+  width: 40%;
+}
+.MainContainer .pCol .Col1 {
+  margin-top: 2%;
+}
+.MainContainer .ColImg {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.MainContainer .ColImg2 {
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 5%;
+  z-index: 1;
+}
+.MainContainer #pBottom {
+  line-height: 1.5rem;
+  margin-left: 5%;
+  padding-top: 5%;
+  z-index: 0;
+}
+.MainContainer #pBottom h2:hover {
+  color: #E96E0A;
+}
+.MainContainer #pBottom a {
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .MainContainer #pBottom {
+    margin-top: 450px;
+  }
+}
+.MainContainer #pBottom p {
+  padding: 2.5%;
+  margin-top: 5%;
+  background-color: #08C827;
+  color: white;
+  width: 90%;
+}
+.MainContainer #pBottom .pB1 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.MainContainer .pBottom2 {
+  margin: 10% 10%;
+}
+.MainContainer .pBottom2 h2 {
+  text-align: center;
+}
+.MainContainer .pBottom2 p {
+  margin-left: 5%;
+  text-align: center;
+  font-size: 2rem;
+  width: 90%;
+}
+.MainContainer .pb2 {
+  display: flex;
+}
+.MainContainer .pb2 img {
+  width: 30%;
+}
